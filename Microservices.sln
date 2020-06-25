@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ms.Api.Customers", "Ms.Api.Customers\Ms.Api.Customers.csproj", "{AF4CCBC5-F79C-4738-BCBE-871BB79981A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ms.Api.Customers", "Ms.Api.Customers\Ms.Api.Customers.csproj", "{AF4CCBC5-F79C-4738-BCBE-871BB79981A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ms.Api.Orders", "Ms.Api.Orders\Ms.Api.Orders.csproj", "{1C03CCFE-E38D-4B48-9794-04696F4E13BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ms.Api.Orders", "Ms.Api.Orders\Ms.Api.Orders.csproj", "{1C03CCFE-E38D-4B48-9794-04696F4E13BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ms.Api.Products", "Ms.Api.Products\Ms.Api.Products.csproj", "{030411FB-EEEB-485D-AEF1-B2660D46F8B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ms.Api.Products", "Ms.Api.Products\Ms.Api.Products.csproj", "{030411FB-EEEB-485D-AEF1-B2660D46F8B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ms.Api.Search", "Ms.Api.Search\Ms.Api.Search.csproj", "{5E1C6942-8B9B-414B-AEA4-76E1504B4590}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ms.Api.Search", "Ms.Api.Search\Ms.Api.Search.csproj", "{5E1C6942-8B9B-414B-AEA4-76E1504B4590}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ms.Api.Products.Tests", "Ms.Api.Products.Tests\Ms.Api.Products.Tests.csproj", "{6EFD9DA8-78C9-45EC-9176-3BAAB6109741}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{5E1C6942-8B9B-414B-AEA4-76E1504B4590}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E1C6942-8B9B-414B-AEA4-76E1504B4590}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E1C6942-8B9B-414B-AEA4-76E1504B4590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EFD9DA8-78C9-45EC-9176-3BAAB6109741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EFD9DA8-78C9-45EC-9176-3BAAB6109741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EFD9DA8-78C9-45EC-9176-3BAAB6109741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EFD9DA8-78C9-45EC-9176-3BAAB6109741}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
